@@ -1,0 +1,16 @@
+{
+  "name" : "mrivera/335/git-lab",
+  "authors": [
+    {
+      "name": "Mershelle Rivera",
+      "email": "mrivera21@mail.greenriver.edu"
+    },
+    {
+      "name": "Diana Carranza",
+      "email": "dcarranza@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
