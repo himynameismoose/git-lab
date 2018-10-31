@@ -16,8 +16,14 @@ $f3 = Base::instance();
 $f3->route('GET /page1',
     function () {
         $view = new View;
-        echo $view->render('/views/page1.html');
+        echo $view->render('views/page1.html');
 });
+
+$f3->route('GET /page3',
+    function () {
+        $view = new View;
+        echo $view->render('views/page3.html');
+    });
 
 //Run fat free
 $f3->run();
